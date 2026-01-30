@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: system-ui, sans-serif;
+    background: #0a0a0a;
+    color: #fff;
+    min-height: 100vh;
+}
+#hero {
+    text-align: center;
+    padding: 4rem 2rem 2rem;
+}
+p {
+    color: #aaa;
+    line-height: 1.6;
+    margin: 0.5rem 0;
+}
+a {
+    color: #6366f1;
+    text-decoration: none;
+}
+a:hover {
+    color: #818cf8;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+}
+h2 {
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    color: #ccc;
+}
+h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+.subtitle {
+    color: #888;
+    margin-top: 0.5rem;
+}
+.content-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.content-wrapper > img {
+    position: absolute;
+    width: 180%;
+    max-width: 2000px;
+    opacity: 0.6;
+    z-index: 0;
+}
+.card {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    margin-top: 2rem;
+    border: 1px solid #222;
+    border-radius: 12px;
+    padding: 2rem;
+    background: rgba(17, 17, 17, 0.85);
+}
+.research-item {
+    padding: 1rem 0;
+    border-bottom: 1px solid #222;
+}
+.research-item:last-child {
+    border-bottom: none;
+}
